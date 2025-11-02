@@ -1,6 +1,6 @@
 import { clerkMiddleware } from "@clerk/nextjs/server";
 
-// export default middleware function - check authentication and protect routes if needed
+// export default middleware function
 export default clerkMiddleware();
 
 // config object to define which routes middleware applies to
